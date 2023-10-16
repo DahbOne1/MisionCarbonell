@@ -1,0 +1,74 @@
+body{
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2.4rem;
+}
+
+nav i{
+    font-size: 0.9em;
+}
+
+section{
+    padding: 0 2.4rem 2rem;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+h7{
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    padding-top: 2rem;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+}
+
+.card-service{
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.desc{
+    padding-top: 1rem;
+    font-size: 1.15em;
+}
+
+.list{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.list li{
+    font-family: 'Mulish', sans-serif;
+}
+
+.card-service span{
+    width: 20%;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+
+.card-service p{
+    width: 80%;
+    padding: 0 2rem;
+}

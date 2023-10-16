@@ -1,0 +1,45 @@
+body{
+    font-size: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    font-size: 1em;
+}
+
+nav i{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+a:hover{
+    color: black;
+    color: red;
+}
+
+
+
+
+@media screen and (max-width:1025px) {
+    ul{
+        gap: 1.2rem;
+    }    
+
+}
+
+@media screen and (max-width:769px) {
+    ul{
+        gap: 2rem;
+    }    
+
+}
+

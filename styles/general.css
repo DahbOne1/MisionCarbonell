@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300&family=Mulish:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(241, 241, 241);
+    color: rgb(36, 36, 36);
+}
+
+img{
+    object-fit: cover;
+}

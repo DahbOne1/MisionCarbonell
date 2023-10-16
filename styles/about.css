@@ -1,0 +1,151 @@
+body{
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2.4rem;
+}
+
+nav i{
+    font-size: 0.9em;
+}
+
+section{
+    padding: 0 2.4rem 2rem;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+}
+
+section h3{
+    font-size: 2em;
+    font-weight: 300;
+    padding: 1rem 0;
+}
+
+#cont-our{
+    display: flex;
+    gap: 2rem;
+}
+
+#cont-our-mision{
+    width: 55%;
+}
+
+#cont-our-vision{
+    width: 45%;
+}
+
+.cont-our-p p{
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+#hr{
+    margin: 0 2.4rem;
+}
+
+.cont-ind{
+    width: 100%;
+    display: flex;
+}
+
+.cont-img{
+    width: 25%;
+    background-color: bisque;
+    min-height: 20rem;
+    max-height: 30rem;
+}
+
+.cont-data{
+    width: 75%;
+    padding-left: 2rem;
+}
+
+h5{
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.cont-data p{
+    font-size: 1em;
+    line-height: 1.8rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:1025px) {
+    body{
+        font-size: 12px;
+    }
+
+    h5{
+        padding-bottom: 0.5rem;
+    }
+
+    .cont-data p{
+        line-height: 1.8rem;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:769px) {
+    body{
+        font-size: 14px;
+    }
+
+    .cont-img{
+        width: 45%;
+        background-color: bisque;
+    }
+    
+    .cont-data{
+        width: 55%;
+        padding-left: 2rem;
+    }
+    
+    #cont-our{
+        gap: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width:426px){
+    body{
+        font-size: 20px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #cont-our{
+        flex-direction: column;
+    }
+
+    #cont-our article{
+        width: 100%;
+    }
+
+    .cont-ind{
+        flex-direction: column;
+    }
+
+    .cont-ind div{
+        width: 100%;
+    }
+
+    .cont-img{
+        margin: 2rem 0;
+    }
+
+}
