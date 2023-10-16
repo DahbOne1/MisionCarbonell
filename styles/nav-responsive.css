@@ -1,0 +1,46 @@
+@media screen and (max-width:426px) {
+    #img-hamburger{
+        display: block;
+        width: 2.rem;
+    }
+
+    #cont-logo{
+        display: none;
+    }
+    
+    header div{
+        position: relative;
+        padding: 1rem 2.4rem;
+    }
+    
+    nav{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    nav i, #dropdwon{
+        padding-bottom: 0.8rem;
+        margin: 1rem 0;
+    }
+
+    
+
+    header div:hover nav{
+        display: block;
+    }
+    
+
+
+}
+
+
+

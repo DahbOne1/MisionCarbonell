@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carbonell & Zapata, S.C. | Contactanos</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/nav-responsive.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <i id="img-hamburger"><img src="img/menu-hamburguesa.png" alt=""></i> 
+            <a id="cont-logo" href="index.html"><img id="logo" src="" alt="img"></a>
+            <nav>
+                <ul>
+                    <i><a href="appoinment.html">Programar una Cita</a></i>
+                    <i><a href="about.html">Acerca de Nosotros </a></i>
+                    <i id="item-services">Servicios<i><img src="img/paloma-bajo.png" alt=""></i>
+                    <ul id="dropdwon">
+                        <i><a href="servicesMexico.html">México</a></i>
+                        <i><a href="servicesEUA.html">EUA</a></i>
+                    </ul>
+                    </i>
+                    <i><a href="contact.html">Contacto</a></i>
+                </ul>
+            </nav>
+        </div>
+    <main>
+        <section>
+            <article id="cont-form" class="cont-our-p">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <label for="nombre">
+                        Nombre(s)
+                        <input type="text" id="nombre">
+                    </label>
+                    <label for="apellidas">
+                        Apellidos
+                        <input type="text" id="apellidas">
+                    </label>
+                    <label id="lbl-email" for="email">
+                        Correo Electronico
+                        <input type="email" id="email">
+                    </label>
+                    <label id="lbl-telefono" for="telefono">
+                        Telefono
+                        <input type="text" id="telefono">
+                    </label>
+                    <label id="lbl-problem" for="problema">
+                        ¿Cuál es su principal problema de inmigración?
+                        <input type="text" id="problema">
+                    </label>
+                    <label id="lbl-status" for="estado">
+                        ¿Cuál es el estatus de la persona que busca asistencia?
+                        <input type="text" id="estado">
+                    </label>
+                    <label id="lbl-details" for="detalles">       
+                        Detalles del caso
+                        <textarea id="detalles"></textarea>
+                    </label>
+                    <label id="lbl-who" for="quien">
+                        ¿Quién te refirió a nosotros?
+                        <input type="text" id="quien">
+                    </label>
+                    <button>Enviar</button>
+                </form>
+            </article>
+            <article id="cont-office" class="cont-our-p">
+                <h6>Nuestra Oficina</h6>
+                <span> Col. Del centro. Av. sin nombre</span>
+                <div></div>
+                <span id="aparta">APARTA UNA CITA EN LINEA</span>
+                <P>Llamanos a este número 7474 74 74 74</P>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

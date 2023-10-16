@@ -4,7 +4,23 @@ body{
 }
 
 nav i{
-    font-size: 0.6em;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+nav img{
+    width: .6rem;
+}
+
+
+#item-services{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#item-services:hover{
+    cursor: pointer;
+    color: red;
 }
 
 section{
@@ -27,7 +43,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.2rem;
     font-size: 1em;
 }
 
@@ -84,8 +100,8 @@ p{
 
     ul{
         flex-direction: column;
+        gap: 2rem;
     }
-    
     
 }
 

@@ -16,3 +16,7 @@ body{
 img{
     object-fit: cover;
 }
+
+li{
+    list-style: none;
+}

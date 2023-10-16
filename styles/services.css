@@ -2,13 +2,6 @@ body{
     font-size: 15px;
 }
 
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 2.4rem;
-}
-
 nav i{
     font-size: 0.9em;
 }
@@ -24,7 +17,7 @@ h3{
     text-align: center;
 }
 
-h7{
+h6{
     font-size: 1.5em;
     margin-bottom: 2rem;
 }
@@ -38,6 +31,11 @@ article{
 
 p{
     font-family: 'Mulish', sans-serif;
+}
+
+.cont-service{
+    display: flex;
+    flex-direction: column;
 }
 
 .card-service{
@@ -71,4 +69,24 @@ p{
 .card-service p{
     width: 80%;
     padding: 0 2rem;
+}
+
+@media screen and (max-width:426px){
+    body{
+        font-size: 20px;
+    }
+    
+    .card-service{
+        flex-direction: column;
+    }
+
+    .card-service span{
+        width: 100%;
+    }
+
+    .card-service p{
+        width: 100%;
+        padding: 1rem 0;
+    }
+
 }

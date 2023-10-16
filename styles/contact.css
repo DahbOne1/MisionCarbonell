@@ -1,0 +1,106 @@
+body{
+    font-size: 15px;
+}
+
+
+nav i{
+    font-size: 0.9em;
+}
+
+section{
+    padding: 0 2.4rem 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+h6{
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    color: red;
+}
+
+p, h6, span{
+    font-family: 'Mulish', sans-serif;
+}
+
+#cont-form{
+    width: 55%;
+}
+
+#cont-office{
+    width: 45%;
+}
+
+form{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+input{
+    border: 0.2px solid #243166;
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+#lbl-email{
+    width: 94%;
+}
+
+#lbl-telefono{
+    width: 94%;
+}
+
+#lbl-problem{
+    width: 94%;
+}
+
+#lbl-status{
+    width: 94%;
+}
+
+#lbl-details{
+    width: 94%;
+}
+
+#lbl-who{
+    width: 94%;
+}
+
+button{
+    width: 30%;
+    text-align: left;
+    padding: 1em;
+    border: 2px solid #243166;
+}
+
+button:hover{
+    background-color: #243166;
+    color: white;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #243166;
+    resize: vertical;
+}
+
+#aparta{
+    color: red;
+}

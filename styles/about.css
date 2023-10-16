@@ -2,13 +2,6 @@ body{
     font-size: 15px;
 }
 
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 2.4rem;
-}
-
 nav i{
     font-size: 0.9em;
 }
@@ -63,7 +56,7 @@ hr{
 .cont-img{
     width: 25%;
     background-color: bisque;
-    min-height: 20rem;
+    min-height: 25rem;
     max-height: 30rem;
 }
 
