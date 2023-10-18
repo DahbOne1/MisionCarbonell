@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/nav-responsive.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/flags.css">
+    <link rel="shortcut icon" href="img/logoAzul.jpg" type="image/x-icon">
 </head>
 <body>
     <header>
         <div>
             <i id="img-hamburger"><img src="img/menu-hamburguesa.png" alt=""></i> 
-            <a id="cont-logo" href="index.html"><img id="logo" src="" alt="img"></a>
+            <a id="cont-logo" href="index.html"><img id="logo" src="img/logo.png" alt="img"></a>
             <nav>
                 <ul>
                     <i><a href="appoinment.html">Programar una Cita</a></i>
@@ -28,7 +30,11 @@
                 </ul>
             </nav>
         </div>
+    </header>    
     <main>
+        <section id="cont-banderas">
+            <img data-language="es" src="img/mexico.png" alt="img"> <img data-language="en" src="img/estados-unidos.png" alt="img">
+        </section>
         <section>
             <article id="cont-form" class="cont-our-p">
                 <h3>Contactanos</h3>
@@ -71,7 +77,9 @@
             <article id="cont-office" class="cont-our-p">
                 <h6>Nuestra Oficina</h6>
                 <span> Col. Del centro. Av. sin nombre</span>
-                <div></div>
+                <div id="cont-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1902.249148359871!2d-99.49444277101819!3d17.531446960256172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbeb86cfd307a7%3A0x7cccf9fcf7b8316!2sLa%20Avispa%20Museo%20Interactivo.!5e0!3m2!1ses-419!2smx!4v1697517816989!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <span id="aparta">APARTA UNA CITA EN LINEA</span>
                 <P>Llamanos a este número 7474 74 74 74</P>
             </article>

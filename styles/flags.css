@@ -1,0 +1,24 @@
+#cont-banderas{
+    padding: 0.5rem 2rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#cont-banderas img{
+    width: 2.4rem;
+    cursor: pointer;
+}
+
+#cont-band{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#cont-band img{
+    width: 2rem;
+    cursor: pointer;
+}

@@ -5,6 +5,7 @@ body{
 header div{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 3rem 2.4rem;
 }
@@ -66,6 +67,10 @@ a:hover{
 
 #item-services:hover #dropdwon{
     display: block;
+}
+
+#logo{
+    width: 7rem;
 }
 
 
