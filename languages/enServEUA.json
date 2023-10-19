@@ -1,3 +1,10 @@
 {
-    
+    "nav":{
+        "a1":"Schedule an apointment",
+        "a2":"About us",
+        "a3":"Services",
+        "a4":"Mexico",
+        "a5":"EUA",
+        "a6":"Contact"
+    }
 }

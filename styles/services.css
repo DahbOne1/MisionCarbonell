@@ -71,6 +71,11 @@ p{
     padding: 0 2rem;
 }
 
+
+.card-service div{
+    width: 80%;
+}
+
 @media screen and (max-width:426px){
     body{
         font-size: 20px;
