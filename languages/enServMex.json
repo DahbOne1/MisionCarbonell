@@ -1,0 +1,32 @@
+{
+    "nav":{
+        "a1":"Schedule an apointment",
+        "a2":"About us",
+        "a3":"Services",
+        "a4":"Mexico",
+        "a5":"EUA",
+        "a6":"Contact"
+    },"services":{
+        "h3":"Services In Mexico",
+        "span-1":"Work Visas",
+        "p-1":"We help your company, organization or business to have your foreign workers work legally in Mexico.",
+        "span-2":"International family unity services",
+        "p-2":"We have the experience to get you and your family together in Mexico and/or the U.S.",
+        "span-3":"Advice to obtain Citizen Residency",
+        "p-3":"We help you obtain your temporary or permanent residency in Mexico and secure your future as a Mexican citizen.",
+        "span-4":"Migration of U.S. retirees to Mexico",
+        "p-4":"This is a migration flow that refers to the members of the 'Baby Boomers'  generation. The 'Baby Boomer Generation' are those people who were born during the years from 1946 to 1964 and who are characterized by being at an age that allows them to enjoy free time and economic resources to live outside their land of origin, given their work situation as retirees, their purchasing power increases with their pensions brought to our country.",
+        "span-5":"Investor visa and economic solvency in Mexico",
+        "p-5":"With the help of our experts, process your investor visa and economic solvency in a fast and effective way.",
+        "span-6":"Immigration Litigation and Deportation Services",
+        "p-6":"Our team of Immigration Attorneys is trained to defend against deportation proceedings in Mexico.",
+        "span-7":"Moving to Mexico",
+        "p-7":"We take care of your move to Mexico. We support you in relocating to Mexico, facilitating the search for schools and housing, as well as in contracting services.",
+        "span-8":"Apostille, legalization and translation services",
+        "p-8":"We support you in obtaining documents needed to obtain visas abroad, such as civil registry records, non-criminal records, medical certificates, notarial documents and others. We can also help you with translations into Spanish.",
+        "span-9":"Tax, corporate, business and real estate consulting services",
+        "p-9":"For those foreigners who wish to invest in Mexico and require corporate, tax and legal advice on foreign investment. We support you to create your company in Mexico or to acquire real estate in this country.",
+        "span-10":"Advisory services on other legal matters",
+        "p-10":"We help you to understand the laws and other legal provisions, trials and procedures in Mexico, as well as guide you step by step in your legal matters."
+    }
+}

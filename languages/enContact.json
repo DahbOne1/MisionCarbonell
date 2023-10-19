@@ -1,0 +1,25 @@
+{
+    "nav":{
+        "a1":"Schedule an apointment",
+        "a2":"About us",
+        "a3":"Services",
+        "a4":"Mexico",
+        "a5":"EUA",
+        "a6":"Contact"
+    },"cont-form":{
+        "h3":"Contact Us",
+        "lbl-1":"FirstName",
+        "lbl-2":"Last Name",
+        "lbl-3":"Email",
+        "lbl-4":"Phone number",
+        "lbl-5":"What is your main immigration problem?",
+        "lbl-6":"What is the status of the person seeking assistance?",
+        "lbl-7":"Case details",
+        "lbl-8":"Who referred you to us?",
+        "button": "Send"        
+    },"cont-office":{
+        "h6":"Our office",
+        "span":"APPOINT AN APPOINTMENT ONLINE",
+        "p":"Call us at this number 7474 74 74 74 74"
+    }
+}

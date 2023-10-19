@@ -1,0 +1,25 @@
+{
+    "nav":{
+        "a1":"Programa una cita",
+        "a2":"Acerca de nosotros",
+        "a3":"Servicios",
+        "a4":"México",
+        "a5":"EUA",
+        "a6":"Contacto"
+    },"cont-form":{
+        "h3":"Contactanos",
+        "lbl-1":"Nombre(s)",
+        "lbl-2":"Apellidos",
+        "lbl-3":"Correo Electrónico",
+        "lbl-4":"Teléfono",
+        "lbl-5":"¿Cuál es su principal problema de inmigración?",
+        "lbl-6":"¿Cuál es el estatus de la persona que busca asistencia?",
+        "lbl-7":"Detalles del caso",
+        "lbl-8":"¿Quién te refirió a nosotros?",
+        "button": "Enviar"        
+    },"cont-office":{
+        "h6":"Nuestra Oficina",
+        "span":"APARTA UNA CITA EN LINEA",
+        "p":"Llamanos a este número 7474 74 74 74"
+    }
+}

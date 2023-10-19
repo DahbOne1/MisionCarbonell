@@ -18,15 +18,15 @@
             <a id="cont-logo" href="index.html"><img id="logo" src="img/logo.png" alt="img"></a>
             <nav>
                 <ul>
-                    <i><a href="appoinment.html">Programar una Cita</a></i>
-                    <i><a href="about.html">Acerca de Nosotros </a></i>
-                    <i id="item-services">Servicios<i><img src="img/paloma-bajo.png" alt=""></i>
-                    <ul id="dropdwon">
-                        <i><a href="servicesMexico.html">México</a></i>
-                        <i><a href="servicesEUA.html">EUA</a></i>
-                    </ul>
+                    <i><a data-section="nav" data-value="a1" href="appoinment.html">Programar una cita</a></i>
+                    <i><a data-section="nav" data-value="a2" href="about.html">Acerca de nosotros</a></i>
+                    <i id="item-services"> <a id="enlace3" data-section="nav" data-value="a3" >Servicios</a><i><img src="img/paloma-bajo.png" alt=""></i>
+                        <ul id="dropdwon">
+                            <i><a data-section="nav" data-value="a4" href="servicesMexico.html">México</a></i>
+                            <i><a data-section="nav" data-value="a5" href="servicesEUA.html">EUA</a></i>
+                        </ul>
                     </i>
-                    <i><a href="contact.html">Contacto</a></i>
+                    <i><a data-section="nav" data-value="a6" href="contact.html">Contacto</a></i>
                 </ul>
             </nav>
         </div>
@@ -37,51 +37,51 @@
         </section>
         <section>
             <article id="cont-form" class="cont-our-p">
-                <h3>Contactanos</h3>
+                <h3 data-section="cont-form" data-value="h3">Contactanos</h3>
                 <form action="">
-                    <label for="nombre">
-                        Nombre(s)
-                        <input type="text" id="nombre">
+                    <label data-section="cont-form" data-value="lbl-1" for="nombre">
+                        Nombre(s) 
                     </label>
-                    <label for="apellidas">
+                    <input type="text" id="nombre">
+                    <label data-section="cont-form" data-value="lbl-2" for="apellidos">
                         Apellidos
-                        <input type="text" id="apellidas">
                     </label>
-                    <label id="lbl-email" for="email">
-                        Correo Electronico
-                        <input type="email" id="email">
+                    <input type="text" id="apellidos">
+                    <label data-section="cont-form" data-value="lbl-3" id="lbl-email" for="email">
+                        Correo Electrónico
                     </label>
-                    <label id="lbl-telefono" for="telefono">
-                        Telefono
-                        <input type="text" id="telefono">
+                    <input type="email" id="email">
+                    <label data-section="cont-form" data-value="lbl-4" id="lbl-telefono" for="telefono">
+                        Teléfono
                     </label>
-                    <label id="lbl-problem" for="problema">
+                    <input type="text" id="telefono">
+                    <label data-section="cont-form" data-value="lbl-5" id="lbl-problem" for="problema">
                         ¿Cuál es su principal problema de inmigración?
-                        <input type="text" id="problema">
                     </label>
-                    <label id="lbl-status" for="estado">
+                    <input type="text" id="problema">
+                    <label data-section="cont-form" data-value="lbl-6" id="lbl-status" for="estado">
                         ¿Cuál es el estatus de la persona que busca asistencia?
-                        <input type="text" id="estado">
                     </label>
-                    <label id="lbl-details" for="detalles">       
+                    <input type="text" id="estado">
+                    <label data-section="cont-form" data-value="lbl-7" id="lbl-details" for="detalles">       
                         Detalles del caso
-                        <textarea id="detalles"></textarea>
                     </label>
-                    <label id="lbl-who" for="quien">
+                    <textarea id="detalles"></textarea>
+                    <label data-section="cont-form" data-value="lbl-8" id="lbl-who" for="quien">
                         ¿Quién te refirió a nosotros?
-                        <input type="text" id="quien">
                     </label>
-                    <button>Enviar</button>
+                    <input type="text" id="quien">
+                    <button data-section="cont-form" data-value="button">Enviar</button>
                 </form>
             </article>
             <article id="cont-office" class="cont-our-p">
-                <h6>Nuestra Oficina</h6>
+                <h6 data-section="cont-office" data-value="h6">Nuestra Oficina</h6>
                 <span> Col. Del centro. Av. sin nombre</span>
                 <div id="cont-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1902.249148359871!2d-99.49444277101819!3d17.531446960256172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbeb86cfd307a7%3A0x7cccf9fcf7b8316!2sLa%20Avispa%20Museo%20Interactivo.!5e0!3m2!1ses-419!2smx!4v1697517816989!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <span id="aparta">APARTA UNA CITA EN LINEA</span>
-                <P>Llamanos a este número 7474 74 74 74</P>
+                <span data-section="cont-office" data-value="span" id="aparta">APARTA UNA CITA EN LINEA</span>
+                <P data-section="cont-office" data-value="p">Llamanos a este número 7474 74 74 74</P>
             </article>
         </section>
     </main>
@@ -89,4 +89,5 @@
 
     </footer>
 </body>
+<script src="scripts/scriptContact.js"></script>
 </html>
