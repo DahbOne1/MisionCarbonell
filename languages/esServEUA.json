@@ -29,7 +29,30 @@
         "h6-6p1":"Se clasifican en las siguientes categorías:",
         "h6-6p2":"Familiares: Esta categoría incluye visas para cónyuges, hijos, padres, y hermanos de ciudadanos estadounidenses y residentes permanentes legales.",
         "h6-6p3":"Trabajo: Esta categoría incluye visas para trabajadores calificados y no calificados.",
-        "h6-6p4":"Humanitarios: Esta categoría incluye visas para refugiados, asilados, y personas que tienen necesidades especiales."
-
+        "h6-6p4":"Humanitarios: Esta categoría incluye visas para refugiados, asilados, y personas que tienen necesidades especiales.",
+        "h6-7":"Visas Familiares",
+        "h6-7p1":"Las visas familiares se otorgan a personas que tienen un parentesco cercano con un ciudadano estadounidense o residente permanente legal. Las visas familiares más comunes son las siguientes:",
+        "k-1":"Para prometidos de ciudadanos estadounidenses.",
+        "k-2":"Para hijos menores de 21 años de prometidos de ciudadanos estadounidenses.",
+        "k-3":"Para cónyuges de ciudadanos estadounidenses que están tramitando su residencia permanente.",
+        "k-4":"Para hijos menores de 21 años de cónyuges de ciudadanos estadounidenses que están tramitando su residencia permanente.",
+        "F2A":"Para hijos y nietos de ciudadanos estadounidenses.",
+        "F2B":"Para hermanos de ciudadanos estadounidenses.",
+        "CR1":"Para cónyuges de residentes permanentes legales.",
+        "IR1":"Para padres de ciudadanos estadounidenses.",
+        "IR2":"Para hijos solteros de ciudadanos estadounidenses mayores de 21 años.",
+        "IR3":"Para hijos casados de ciudadanos estadounidenses.",
+        "IR4":"Para nietos de ciudadanos estadounidenses menores de 21 años.",
+        "h6-8":"Visas de Trabajo",
+        "h6-8p1":"Las visas de trabajo se otorgan a personas que tienen habilidades o experiencia que son necesarias en los Estados Unidos. Las visas de trabajo más comunes son las siguientes:",
+        "EB-1":"Para trabajadores de extraordinaria habilidad, logros académicos sobresalientes, o quienes tienen una oferta de trabajo de una empresa estadounidense.",
+        "EB-2":"Para trabajadores con habilidades extraordinarias, trabajadores profesionales, y trabajadores con habilidades especiales.",
+        "EB-3":"Para trabajadores calificados y no calificados.",
+        "H-1B":"Para trabajadores altamente calificados.",
+        "L-1":"Para empleados transferidos de una empresa extranjera a una sucursal de la misma empresa en los Estados Unidos.",
+        "O-1":"Para personas con habilidades extraordinarias en ciencias, artes, educación, negocios, o atletismo.",
+        "P-1":"Para artistas y atletas que son miembros de grupos reconocidos internacionalmente.",
+        "Q":"Para participantes en programas de intercambio cultural.",
+        "R-1":"Para ministros religiosos"
     }
 }

@@ -20,7 +20,7 @@ nav img{
 
 #item-services:hover{
     cursor: pointer;
-    color: red;
+    color: #243166;
 }
 
 section{
@@ -43,13 +43,12 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.2rem;
-    font-size: 1em;
+    gap: 1rem;
 }
 
 
 h1{
-    font-size: 3.6em;
+    font-size: 3.8em;
     font-weight: 100;
     margin-bottom: 0.2em;
 }
@@ -57,7 +56,7 @@ h1{
 p{
     margin-bottom: 0.6rem;
     line-height: 1.4rem;
-    font-size: 1em;
+    font-size: 1.05em;
 }
 
 @media screen and (max-width:1346px){
