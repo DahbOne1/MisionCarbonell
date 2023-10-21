@@ -29,10 +29,6 @@ article{
     padding-top: 2rem;
 }
 
-p{
-    font-family: 'Mulish', sans-serif;
-}
-
 .cont-service{
     display: flex;
     flex-direction: column;
@@ -67,7 +63,7 @@ p{
 
 
 .card-service p{
-    width: 80%;
+    width: 100%;
     padding: 0 2rem;
 }
 

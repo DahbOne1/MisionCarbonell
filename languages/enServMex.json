@@ -2,10 +2,12 @@
     "nav":{
         "a1":"Schedule an apointment",
         "a2":"About us",
-        "a3":"Services",
-        "a4":"Mexico",
-        "a5":"EUA",
-        "a6":"Contact"
+        "a3":"Mission/Vision",
+        "a4":"Work Team",
+        "a5":"Services",
+        "a6":"Mexico",
+        "a7":"EUA",
+        "a8":"Contact"
     },"services":{
         "h3":"Services In Mexico",
         "span-1":"Work Visas",

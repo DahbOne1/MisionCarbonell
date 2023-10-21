@@ -2,10 +2,12 @@
     "nav":{
         "a1":"Programar una cita",
         "a2":"Acerca de nosotros",
-        "a3":"Servicios",
-        "a4":"México",
-        "a5":"EUA",
-        "a6":"Contacto"
+        "a3":"Misión/Visión",
+        "a4":"Equipo de Trabajo",
+        "a5":"Servicios",
+        "a6":"México",
+        "a7":"EUA",
+        "a8":"Contacto"
     },
     "servicios":{
         "h3":"Servicios En Estados Unidos",

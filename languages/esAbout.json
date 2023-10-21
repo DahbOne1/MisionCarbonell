@@ -2,10 +2,12 @@
     "nav":{
         "a1":"Programar una cita",
         "a2":"Acerca de nosotros",
-        "a3":"Servicios",
-        "a4":"México",
-        "a5":"EUA",
-        "a6":"Contacto"
+        "a3":"Misión/Visión",
+        "a4":"Equipo de Trabajo",
+        "a5":"Servicios",
+        "a6":"México",
+        "a7":"EUA",
+        "a8":"Contacto"
     },"mision":{
         "mision":"Misión",
         "mis-p1":"Somos un despacho especializado en asuntos migratorios, brindamos servicios de asesoría y representación legal a personas que buscan obtener la residencia o ciudadanía en un país extranjero. Sabemos que el cambiar de residencia o establecer una empresa en otro país incluye muchas veces un plan de vida o de negocios. Nuestro compromiso en Carbonell + Zapata, S.C. con el desarrollo y éxito de los negocios de nuestros clientes es total. Nuestra misión es ser un referente en el mercado, brindando servicios de alta calidad y un trato personalizado a sus clientes.",

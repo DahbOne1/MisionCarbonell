@@ -2,10 +2,12 @@
     "nav":{
         "a1":"Schedule an apointment",
         "a2":"About us",
-        "a3":"Services",
-        "a4":"Mexico",
-        "a5":"EUA",
-        "a6":"Contact"
+        "a3":"Mission/Vision",
+        "a4":"Work Team",
+        "a5":"Services",
+        "a6":"Mexico",
+        "a7":"EUA",
+        "a8":"Contact"
     },"mision":{
         "mision":"Mission",
         "mis-p1":"We are a law firm specialized in immigration matters, we provide legal advice and representation services to people seeking to obtain residency or citizenship in a foreign country. We know that changing residence or establishing a business in another country often involves a life or business plan. Our commitment at Carbonell + Zapata, S.C. to the development and success of our clients' businesses is total. Our mission is to be a reference in the market, providing high quality services and a personalized treatment to our clients.",

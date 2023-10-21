@@ -3,11 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 #cont-banderas img{
-    width: 2.4rem;
+    width: 2rem;
     cursor: pointer;
     display: block;
 }

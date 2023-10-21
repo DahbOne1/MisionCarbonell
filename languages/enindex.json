@@ -7,9 +7,11 @@
     "nav":{
         "a1":"SCHEDULE AN APPOINTMENT",
         "a2":"ABOUT US",
-        "a3":"SERVICES",
-        "a4":"MEXICO",
-        "a5":"EUA",
-        "a6":"CONTACT"
+        "a3":"MISSION/VISION",
+        "a4":"WORK TEAM",
+        "a5":"SERVICES",
+        "a6":"MEXICO",
+        "a7":"EUA",
+        "a8":"CONTACT"
     }
 }

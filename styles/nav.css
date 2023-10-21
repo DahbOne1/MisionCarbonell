@@ -18,14 +18,13 @@ ul{
     display: flex;
     justify-content: flex-start;
     gap: 1.5rem;
-    font-size: 1em;
 }
 
 nav i{
-    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-size: .8em;
     font-weight: 500;
+    padding: 0 0.2rem;
 }
 
 nav img{
@@ -43,7 +42,6 @@ a:hover{
 }
 
 #item-services{
-    font-family: 'Mulish', sans-serif;
     display: inline-block;
     position: relative;
 }
@@ -62,7 +60,6 @@ a:hover{
 
 #dropdwon a{
     display: block;
-    padding: 0.3rem;
 }
 
 #item-services:hover #dropdwon{
@@ -73,10 +70,6 @@ a:hover{
     width: 7rem;
 }
 
-#enlace3{
-    display: inline;
-
-}
 
 
 

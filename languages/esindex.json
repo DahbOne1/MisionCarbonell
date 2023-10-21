@@ -7,9 +7,11 @@
     "nav":{
         "a1":"PROGRAMAR UNA CITA",
         "a2":"ACERCA DE NOSOTROS",
-        "a3":"SERVICIOS",
-        "a4":"MÉXICO",
-        "a5":"EUA",
-        "a6":"CONTACTO"
+        "a3":"MISIÓN/VISIÓN",
+        "a4":"EQUIPO DE TRABAJO",
+        "a5":"SERVICIOS",
+        "a6":"MÉXICO",
+        "a7":"EUA",
+        "a8":"CONTACTO"
     }
 }
