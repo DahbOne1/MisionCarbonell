@@ -1,5 +1,5 @@
 body{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 nav i{
@@ -8,4 +8,49 @@ nav i{
 
 section{
     padding: 0 2.4rem 2rem;
+}
+
+#cont-info{
+    display: flex;
+}
+
+#cont-info article{
+    width: 50%;
+}
+
+
+.cont-datos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.cont-datos div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.5rem;
+}
+
+#tel{
+    margin-left: 2rem;
+}
+
+.cont-datos img{
+    width: 1.6rem;
+}
+
+
+
+@media screen and (max-width:426px) {
+    #cont-info{
+        flex-direction: column;
+    }    
+
+    #cont-info article{
+        width: 100%;
+    }
+
 }

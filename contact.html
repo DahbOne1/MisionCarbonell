@@ -38,46 +38,46 @@
     </header>    
     <main>
         <section id="cont-banderas">
-            <img data-language="es" src="img/mexico.png" alt="img"> <img data-language="en" src="img/estados-unidos.png" alt="img">
+            <img data-language="esContact" src="img/mexico.png" alt="img"> <img data-language="enContact" src="img/estados-unidos.png" alt="img">
         </section>
         <section>
             <article id="cont-form" class="cont-our-p">
                 <h3 data-section="cont-form" data-value="h3">Contactanos</h3>
-                <form action="">
+                <form action="send.php" method="post">
                     <label data-section="cont-form" data-value="lbl-1" for="nombre">
                         Nombre(s) 
                     </label>
-                    <input type="text" id="nombre">
+                    <input name="nombre" type="text" id="nombre">
                     <label data-section="cont-form" data-value="lbl-2" for="apellidos">
                         Apellidos
                     </label>
-                    <input type="text" id="apellidos">
+                    <input name="apellidos" type="text" id="apellidos">
                     <label data-section="cont-form" data-value="lbl-3" id="lbl-email" for="email">
                         Correo Electrónico
                     </label>
-                    <input type="email" id="email">
+                    <input name="email" type="email" id="email">
                     <label data-section="cont-form" data-value="lbl-4" id="lbl-telefono" for="telefono">
                         Teléfono
                     </label>
-                    <input type="text" id="telefono">
+                    <input name="telefono" type="text" id="telefono">
                     <label data-section="cont-form" data-value="lbl-7" id="lbl-details" for="detalles">       
                         Detalles del caso
                     </label>
-                    <textarea id="detalles"></textarea>
-                    <button data-section="cont-form" data-value="button">Enviar</button>
+                    <textarea name="detalles" id="detalles"></textarea>
+                    <button data-section="cont-form" data-value="button" type="submit">Enviar</button>
                 </form>
             </article>
             <article id="cont-office" class="cont-our-p">
                 <h6 data-section="cont-office" data-value="h6">Nuestros Datos</h6>
                 <div class="cont-datos">
-                    <span>ABOGADO</span>
+                    <span data-section="cont-office" data-value="span">ABOGADO</span>
                     <div><img src="img/usuario.png" alt="img"><span>Germán Martínez Carbonell</span></div>
                     <div><img src="img/correo.png" alt="img"><span>german@carbonellzapata.com</span></div>
                     <div><img src="img/whatsapp.png" alt="img"><span>+52 5510-653545 México</span></div>
                     <span id="tel">+1 615 829 6090 USA</span>
                 </div>
                 <div class="cont-datos">
-                    <span>ABOGADO</span>
+                    <span data-section="cont-office" data-value="span">ABOGADO</span>
                     <div><img src="img/usuario.png" alt="img"><span>Eder Roberto Zapata Davalos</span></div>
                     <div><img src="img/correo.png" alt="img"><span>eder@carbonellzapata.com</span></div>
                     <div><img src="img/whatsapp.png" alt="img"><span>+52 762-100-9479</span></div>
@@ -87,5 +87,5 @@
         </section>
     </main>
 </body>
-<script src="scripts/scriptContact.js"></script>
+<script src="scripts/script2.js"></script>
 </html>
