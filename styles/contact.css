@@ -105,15 +105,30 @@ textarea{
     color: #243166;
 }
 
-#cont-maop{
-    width: 100%;
+
+.cont-datos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 2rem;
+    margin-left: 3rem;
 }
 
-iframe{
-    margin: 0.5rem 0;
-    width: 100%;
-    min-height: 30rem;
+.cont-datos div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.5rem;
 }
+
+#tel{
+    margin-left: 2rem;
+}
+
+.cont-datos img{
+    width: 1.6rem;
+}
+
 
 @media screen and (max-width:426px) {
     section{

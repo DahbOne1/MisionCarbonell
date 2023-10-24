@@ -1,5 +1,5 @@
 body{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 nav i{
@@ -10,14 +10,21 @@ section{
     padding: 0 2.4rem 2rem;
 }
 
-p{
-    font-family: 'Mulish', sans-serif;
-}
-
 section h3{
     font-size: 2em;
     font-weight: 300;
     padding: 1rem 0;
+}
+
+#cont-video{
+    width: 100%;
+    text-align: center;
+}
+
+video{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1rem;
 }
 
 #cont-our{
@@ -37,7 +44,6 @@ section h3{
     font-size: 1em;
     font-weight: 300;
     margin-top: 1rem;
-    line-height: 1.8rem;
 }
 
 hr{
@@ -68,6 +74,7 @@ hr{
 h5{
     font-size: 1.6em;
     font-weight: 100;
+    font-weight: bolder;
 }
 
 .cont-data p{
