@@ -131,12 +131,16 @@ textarea{
 
 
 @media screen and (max-width:426px) {
-    section{
+    #cont-sectform{
         flex-direction: column;
     }    
 
     #cont-form, #cont-office{
         width: 100%;
+    }
+
+    .cont-datos{
+        margin-left: 0rem;
     }
 
 }
