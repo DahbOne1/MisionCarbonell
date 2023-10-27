@@ -71,7 +71,9 @@ a:hover{
 }
 
 
-
+#aInicio{
+    display: none;
+}
 
 
 @media screen and (max-width:1025px) {
@@ -87,3 +89,4 @@ a:hover{
     }    
 
 }
+

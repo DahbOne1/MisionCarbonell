@@ -34,7 +34,7 @@ article{
 }
 
 video{
-    width: 85%;
+    width: 65%;
     margin: 0 auto;
     padding-bottom: 3rem;
 }
@@ -80,6 +80,11 @@ video{
 
 .card-service div{
     width: 80%;
+}
+
+.vid{
+    margin: 40px auto;
+    width: 40%;
 }
 
 footer{

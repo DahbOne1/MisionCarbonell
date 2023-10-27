@@ -18,8 +18,9 @@
             <a id="cont-logo" href="index.html"><img id="logo" src="img/logo.png" alt="img"></a>
             <nav>
                 <ul>
+                    <i id="aInicio"><a data-section="nav" data-value="a0" href="index.html">Inicio</a></i>
                     <i><a data-section="nav" data-value="a1" href="appoinment.html">Programar una cita</a></i>
-                    <i id="item-services"> <a data-section="nav" data-value="a2">Acerca de Nosotros</a><i><img src="img/paloma-bajo.png" alt=""></i>
+                    <i id="item-services"> <a data-section="nav" data-value="a2">Acerca de nosotros</a><i><img src="img/paloma-bajo.png" alt=""></i>
                         <ul id="dropdwon">
                             <i><a data-section="nav" data-value="a3" href="mission.html">Misión/Visión</a></i>
                             <i><a data-section="nav" data-value="a4" href="ourteam.html">Equipo de Trabajo</a></i>
@@ -43,7 +44,11 @@
         <section>
             <h3 data-section="servicios" data-value="h3">Servicios En Estados Unidos</h3>
             <article>
-                <video src="videos/conexion.mp4" autoplay muted loop></video>
+                <video autoplay muted loop>
+                    <source src="videos/conexion.mp4" autoplay muted loop typr="video/mp4" />
+                    <source src="videos/conexion.webm" autoplay muted loop typr="video/webm" />
+                    Tu navegador no soporta archivos multimedia
+                </video>
             </article>
             <article id="cont-services">
                 <div class="cont-service">
@@ -62,8 +67,8 @@
                                 <br>
                                 <p data-section="servicios" data-value="EB-5p3">2. Planifican crear o conservar 10 empleos permanentes para trabajadores estadounidenses cualificados.</p>
                         </div>
-                       
-                    </div>         
+                    </div>    
+                   <!-- <video class="vid" src="videos/conexion.mp4" autoplay muted loop></video>    --> 
                 </div>
 
                 <hr>
@@ -89,6 +94,7 @@
                         <span>H-2B</span>
                         <p data-section="servicios" data-value="H-2B">Para trabajadores temporales no agrícolas.</p>
                     </div>
+                <!--    <video class="vid" src="videos/conexion.mp4" autoplay muted loop></video>-->
                 </div>
 
                 <hr>
