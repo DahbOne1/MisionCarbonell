@@ -33,9 +33,15 @@
         margin: 0.8rem 0;
     }
 
-    .dropdwon i{
+    #dropdwon i{
         margin: 0.2rem 0;
     }
+
+    #dropdwon2 i{
+        margin: 0.2rem 0;
+    }
+
+    
 
     header div:hover nav{
         display: block;

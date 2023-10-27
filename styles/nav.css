@@ -41,28 +41,32 @@ a:hover{
     color: #243166;
 }
 
-#item-services{
+#item-services, #item-services2{
     display: inline-block;
     position: relative;
 }
 
-#item-services:hover{
+#item-services:hover, #item-services2{
     cursor: pointer;
     color: #243166;
 }
 
-#dropdwon{
+#dropdwon, #dropdwon2{
     display: none;
     position: absolute;
     width: 100%;
     overflow: auto;
 }
 
-#dropdwon a{
+#dropdwon a, #dropdwon2 a{
     display: block;
 }
 
 #item-services:hover #dropdwon{
+    display: block;
+}
+
+#item-services2:hover #dropdwon2{
     display: block;
 }
 
