@@ -12,6 +12,13 @@ nav img{
     width: .6rem;
 }
 
+ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+
 
 #item-services{
     font-size: 0.8em;
@@ -19,6 +26,17 @@ nav img{
 }
 
 #item-services:hover{
+    cursor: pointer;
+    color: #243166;
+}
+
+
+#item-services2{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#item-services2:hover{
     cursor: pointer;
     color: #243166;
 }
@@ -110,6 +128,10 @@ p{
     }
 
     #dropdwon{
+        gap: 0rem;
+    }
+
+    #dropdwon2{
         gap: 0rem;
     }
     

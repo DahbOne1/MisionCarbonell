@@ -35,30 +35,53 @@ nav img{
 a{
     text-decoration: none;
     color: rgb(36, 36, 36);
+    padding: 0.05rem;
 }
 
 a:hover{
     color: #243166;
 }
 
-#item-services, #item-services2{
-    display: inline-block;
+#item-services{
+    display: block;
     position: relative;
 }
 
-#item-services:hover, #item-services2{
+
+#item-services2{
+    display: block;
+    position: relative;   
+}
+
+#item-services:hover{
     cursor: pointer;
     color: #243166;
 }
 
-#dropdwon, #dropdwon2{
+#item-services2:hover{
+    cursor: pointer;
+    color: #243166;
+}
+
+#dropdwon {
     display: none;
     position: absolute;
     width: 100%;
     overflow: auto;
 }
 
-#dropdwon a, #dropdwon2 a{
+#dropdwon2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+}
+
+#dropdwon a{
+    display: block;
+}
+
+#dropdwon2 a{
     display: block;
 }
 

@@ -23,29 +23,24 @@
         background-color: white;
     }
 
-    ul{
-        flex-direction: column;
-        gap: 4rem 0;
-    }
-
-
-    i{
-        margin: 0.8rem 0;
-    }
-
-    #dropdwon i{
-        margin: 0.2rem 0;
-    }
-
-    #dropdwon2 i{
-        margin: 0.2rem 0;
-    }
-
-    
-
     header div:hover nav{
         display: block;
     }
+    
+
+    nav ul{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+   nav > ul{
+    gap: 6rem 0;
+   } 
+
+
     
     #aInicio{
         display: block;

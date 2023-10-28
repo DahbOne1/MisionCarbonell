@@ -1,5 +1,5 @@
 body{
-    font-size: 18px;
+    font-size: 15px;
 }
 
 nav i{
@@ -96,6 +96,10 @@ footer{
     body{
         font-size: 20px;
     }
+
+    section{
+        padding-top: 3rem;
+    }
     
     .card-service{
         flex-direction: column;
@@ -111,7 +115,7 @@ footer{
     }
 
     video{
-        width: 100%;
+        width: 80%;
     }
 
 }
