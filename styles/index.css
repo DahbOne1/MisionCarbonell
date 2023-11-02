@@ -18,7 +18,9 @@ ul{
     gap: 1.5rem;
 }
 
-
+#log{
+    width: 20rem;
+}
 
 #item-services{
     font-size: 0.8em;
@@ -116,6 +118,12 @@ p{
 
     h1{
         text-align: left;
+    }
+
+    #log{
+        display: block;
+        margin: 0 auto;
+        padding: 1rem 0;
     }
 
     #cont-presentation{
