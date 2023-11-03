@@ -146,6 +146,12 @@ video{
         margin-left: 0;
     }
 
+    #cont-contacts{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
     
 
 }
