@@ -2,7 +2,7 @@
     "nav":{
         "a0":"Home",
         "a1":"Programar una cita",
-        "a2":"Acerca de nosotros",
+        "a2":"Acerca de Nosotros",
         "a3":"Misión/Visión",
         "a4":"Equipo de Trabajo",
         "a5":"Servicios",
@@ -22,6 +22,7 @@
         "button": "Enviar"        
     },"cont-office":{
         "h6":"Nuestra Oficina",
-        "span":"ABOGADO"
+        "span":"ABOGADO",
+        "appointment":"AGENDA TU CITA"
     }
 }

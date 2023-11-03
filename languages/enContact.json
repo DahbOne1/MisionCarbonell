@@ -22,6 +22,7 @@
         "button": "Send"        
     },"cont-office":{
         "h6":"Our office",
-        "span":"LAWYER"
+        "span":"LAWYER",
+        "appointment": "SCHEDULE YOUR APPOINTMENT"
     }
 }

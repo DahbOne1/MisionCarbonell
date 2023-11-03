@@ -52,13 +52,13 @@ section{
 
 #log{
     object-fit: cover;
-    width: 62%;
+    width: 55%;
 }
 
-#cont-social span{
+#cita{
     background-color: #243166;
-    border-radius: 1rem;
-    width: 62%;
+    border-radius: 0.3rem;
+    width: 55%;
     padding: 1rem 0;
     text-align: center;
     color: rgb(241, 241, 241);
@@ -68,7 +68,7 @@ section{
 
 
 #cont-social ul{
-    width: 62%;
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,14 +84,58 @@ section{
     transform: scale(1.2);
 }
 
+#cont-contacts{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.imgWha{
+    width: 1.2rem;
+    margin-right: .6rem;
+}
+
+
+#cont-video{
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+video{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
 @media screen and (max-width:426px) {
     #cont-info{
         flex-direction: column;
     }    
+    
 
     #cont-info article{
         width: 100%;
         margin: 2rem 0;
+    }
+
+    #cita{
+        width: 100%;
+    }
+    
+    
+    #cont-social ul{
+        width: 100%;
+    }
+    
+    #cont-contacts{
+        width: 100%;
     }
 
     img{
@@ -101,5 +145,7 @@ section{
     .cont-datos{
         margin-left: 0;
     }
+
+    
 
 }

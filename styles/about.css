@@ -16,6 +16,10 @@ section h3{
     padding: 1rem 0;
 }
 
+strong{
+    font-style: italic;
+}
+
 .cont-data h5{
     font-weight: 100;
 }
@@ -38,6 +42,10 @@ video{
 
 #cont-our-mision{
     width: 55%;
+}
+
+#cont-our-mision video{
+    height: 30vh;
 }
 
 #cont-our-vision{
